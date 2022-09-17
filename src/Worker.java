@@ -1,3 +1,5 @@
 public class Worker {
-private int Name;
+     int name;
+     char specialty;
+     int endTime;
 }
