@@ -1,5 +1,5 @@
 public class Order {
-    int dishNumber;
-    char dishName;
-    int price;
+    private int dishNumber;
+    private String dishName;
+    private int price;
 }

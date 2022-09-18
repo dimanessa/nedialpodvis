@@ -1,4 +1,4 @@
 public class Table {
-    int number;
-    char responsible; //відповідальний
+    private int number;
+    private String responsible; //відповідальний
 }
