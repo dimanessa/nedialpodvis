@@ -3,7 +3,10 @@ public class Worker {
      private String specialty;
      private int endTime;
 
-     public Worker(String wef, String ef, int i) {
+     public Worker(String name, String specialty, int endTime) {
+          this.name=name;
+          this.specialty=specialty;
+          this.endTime=endTime;
      }
 
      public int getEndTime() {
@@ -20,7 +23,7 @@ public class Worker {
      }
 
      public void plusWorkHour(){
-          this.endTime++;
+          endTime++;
           if(endTime==24) endTime=0;
      }
 }

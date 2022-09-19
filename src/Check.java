@@ -1,11 +1,14 @@
-public class Check extends Table {
+public class Check  {
+    private int tableNumber;
+    private String responsible;
     private int orderNumber;
-
-    public Check(int i, String wef, int i1) {
-        super();
+    public Check(int number, String responsible, int orderNumber) {
+        this.tableNumber=number;
+        this.orderNumber=orderNumber;
+        this.responsible=responsible;
     }
 
-    public void changeResponsible(int name){
-
+    public void changeOrderNumber(int ordernumber){
+        this.orderNumber=ordernumber;
     }
 }
