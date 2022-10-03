@@ -11,6 +11,8 @@ public class Main {
         System.out.print(order1.discount(order1.getPrice()));
         Table table1 = new Table(1,"Oleksandr");
         table1.changeResponsible("Roman");
+        String[][] array = new String[10][10];
+        order1.array();
     }
 
 
