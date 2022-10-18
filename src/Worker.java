@@ -8,7 +8,6 @@ public class Worker {
           this.specialty=specialty;
           this.endTime=endTime;
      }
-
      public int getEndTime() {
           return endTime;
      }
